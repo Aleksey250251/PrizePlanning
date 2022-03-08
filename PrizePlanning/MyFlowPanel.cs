@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PrizePlanning
 {
-    class MyFlowPanel : System.Windows.Forms.Panel
+    class MyFlowPanel : System.Windows.Forms.FlowLayoutPanel
     {
         public MyFlowPanel()
         {
