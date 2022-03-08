@@ -13,28 +13,30 @@ namespace PrizePlanning
     public partial class Prizes : UserControl
     {
         AddRecord addRecord;
-
+        ChoosePrize choosePrize;
         public Prizes()
         {
             InitializeComponent();
         }
 
-        public void Load(AddRecord addRecord)
+        public void Load(AddRecord addRecord,ChoosePrize choosePrize)
         {
             this.addRecord = addRecord;
+            this.choosePrize = choosePrize;
         }
 
         public void AddRecordOnFlowLayoutPanel(int ID, string fam, string name, string otch, string age, string gender)
         {
-            Record record = new Record();
-            record.Id = ID;
-            record.Fam = fam;
-            record.Name = name;
-            record.Otch = otch;
-            record.Age = age;
-            record.Gender = gender;
-            record.Location = new System.Drawing.Point(0, 106 * (MainPrizeForm.countRecords - 1));
-            myFlowPanel1.Controls.Add(record);
+            PrizeRecord prizeRecord = new PrizeRecord();
+            prizeRecord.Id = ID;
+            prizeRecord.Fam = fam;
+            prizeRecord.Name = name;
+            prizeRecord.Otch = otch;
+            prizeRecord.Date = "";
+            prizeRecord.Prize = "";
+            prizeRecord.Load(choosePrize);
+            myFlowPanel1.Controls.Add(prizeRecord);
+            
         }
         public void DeleteRecord(int ID)
         {
@@ -42,16 +44,16 @@ namespace PrizePlanning
 
             for (int i = 0; i < myFlowPanel1.Controls.Count; i++)
             {
-                ((Record)myFlowPanel1.Controls[i]).Id = i + 1;
+                ((PrizeRecord)myFlowPanel1.Controls[i]).Id = i + 1;
             }
         }
         public void ChooseRecord(int ID, string fam, string name, string otch, string age, string gender)
         {
-            ((Record)myFlowPanel1.Controls[ID - 1]).Fam = fam;
-            ((Record)myFlowPanel1.Controls[ID - 1]).Name = name;
-            ((Record)myFlowPanel1.Controls[ID - 1]).Otch = otch;
-            ((Record)myFlowPanel1.Controls[ID - 1]).Age = age;
-            ((Record)myFlowPanel1.Controls[ID - 1]).Gender = gender;
+            ((PrizeRecord)myFlowPanel1.Controls[ID - 1]).Fam = fam;
+            ((PrizeRecord)myFlowPanel1.Controls[ID - 1]).Name = name;
+            ((PrizeRecord)myFlowPanel1.Controls[ID - 1]).Otch = otch;
+            //((PrizeRecord)myFlowPanel1.Controls[ID - 1]).Age = age;
+            //((PrizeRecord)myFlowPanel1.Controls[ID - 1]).Gender = gender;
         }
     }
 }

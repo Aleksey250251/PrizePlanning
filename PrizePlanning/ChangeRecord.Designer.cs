@@ -53,7 +53,7 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Location = new System.Drawing.Point(586, 603);
+            this.panel1.Location = new System.Drawing.Point(189, 619);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(280, 52);
             this.panel1.TabIndex = 26;
@@ -116,7 +116,7 @@
             this.textBox3.BackColor = System.Drawing.Color.DarkOrchid;
             this.textBox3.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold);
             this.textBox3.ForeColor = System.Drawing.Color.Khaki;
-            this.textBox3.Location = new System.Drawing.Point(784, 133);
+            this.textBox3.Location = new System.Drawing.Point(840, 249);
             this.textBox3.MaxLength = 15;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(280, 46);
@@ -127,7 +127,7 @@
             this.textBox2.BackColor = System.Drawing.Color.DarkOrchid;
             this.textBox2.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold);
             this.textBox2.ForeColor = System.Drawing.Color.Khaki;
-            this.textBox2.Location = new System.Drawing.Point(245, 190);
+            this.textBox2.Location = new System.Drawing.Point(468, 116);
             this.textBox2.MaxLength = 15;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(280, 46);
@@ -138,7 +138,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkOrchid;
             this.textBox1.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.Color.Khaki;
-            this.textBox1.Location = new System.Drawing.Point(107, 476);
+            this.textBox1.Location = new System.Drawing.Point(69, 270);
             this.textBox1.MaxLength = 15;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(280, 46);
@@ -150,7 +150,7 @@
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown1.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold);
             this.numericUpDown1.ForeColor = System.Drawing.Color.Khaki;
-            this.numericUpDown1.Location = new System.Drawing.Point(844, 415);
+            this.numericUpDown1.Location = new System.Drawing.Point(800, 629);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(280, 42);
             this.numericUpDown1.TabIndex = 20;
@@ -161,7 +161,7 @@
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Khaki;
-            this.label5.Location = new System.Drawing.Point(844, 337);
+            this.label5.Location = new System.Drawing.Point(800, 551);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(280, 47);
             this.label5.TabIndex = 19;
@@ -173,7 +173,7 @@
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Khaki;
-            this.label4.Location = new System.Drawing.Point(586, 535);
+            this.label4.Location = new System.Drawing.Point(189, 551);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(280, 47);
             this.label4.TabIndex = 18;
@@ -185,7 +185,7 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Khaki;
-            this.label3.Location = new System.Drawing.Point(107, 394);
+            this.label3.Location = new System.Drawing.Point(69, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 47);
             this.label3.TabIndex = 17;
@@ -197,7 +197,7 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Khaki;
-            this.label2.Location = new System.Drawing.Point(784, 51);
+            this.label2.Location = new System.Drawing.Point(840, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(280, 47);
             this.label2.TabIndex = 16;
@@ -209,7 +209,7 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Khaki;
-            this.label1.Location = new System.Drawing.Point(245, 111);
+            this.label1.Location = new System.Drawing.Point(468, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(280, 47);
             this.label1.TabIndex = 15;

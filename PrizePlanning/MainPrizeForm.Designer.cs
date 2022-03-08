@@ -55,6 +55,7 @@ namespace PrizePlanning
             this.reminder1 = new PrizePlanning.Reminder();
             this.inputRecord1 = new PrizePlanning.InputRecord();
             this.changeRecord1 = new PrizePlanning.ChangeRecord();
+            this.choosePrize1 = new PrizePlanning.ChoosePrize();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -261,6 +262,7 @@ namespace PrizePlanning
             this.panel3.Controls.Add(this.reminder1);
             this.panel3.Controls.Add(this.inputRecord1);
             this.panel3.Controls.Add(this.changeRecord1);
+            this.panel3.Controls.Add(this.choosePrize1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(286, 39);
             this.panel3.Name = "panel3";
@@ -322,6 +324,15 @@ namespace PrizePlanning
             this.changeRecord1.Size = new System.Drawing.Size(1161, 748);
             this.changeRecord1.TabIndex = 5;
             // 
+            // choosePrize1
+            // 
+            this.choosePrize1.BackColor = System.Drawing.Color.MediumPurple;
+            this.choosePrize1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.choosePrize1.Location = new System.Drawing.Point(0, 0);
+            this.choosePrize1.Name = "choosePrize1";
+            this.choosePrize1.Size = new System.Drawing.Size(1161, 748);
+            this.choosePrize1.TabIndex = 6;
+            // 
             // MainPrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -373,6 +384,7 @@ namespace PrizePlanning
         private Reminder reminder1;
         private InputRecord inputRecord1;
         private ChangeRecord changeRecord1;
+        private ChoosePrize choosePrize1;
     }
 }
 

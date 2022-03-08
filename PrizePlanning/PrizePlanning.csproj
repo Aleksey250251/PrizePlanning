@@ -71,11 +71,23 @@
     <Compile Include="ChangeRecord.Designer.cs">
       <DependentUpon>ChangeRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChoosePrize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChoosePrize.Designer.cs">
+      <DependentUpon>ChoosePrize.cs</DependentUpon>
+    </Compile>
     <Compile Include="InputRecord.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="InputRecord.Designer.cs">
       <DependentUpon>InputRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrizeRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrizeRecord.Designer.cs">
+      <DependentUpon>PrizeRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="Record.cs">
       <SubType>UserControl</SubType>
@@ -121,8 +133,14 @@
     <EmbeddedResource Include="ChangeRecord.resx">
       <DependentUpon>ChangeRecord.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChoosePrize.resx">
+      <DependentUpon>ChoosePrize.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InputRecord.resx">
       <DependentUpon>InputRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrizeRecord.resx">
+      <DependentUpon>PrizeRecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Record.resx">
       <DependentUpon>Record.cs</DependentUpon>

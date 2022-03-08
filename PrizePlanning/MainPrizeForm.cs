@@ -32,7 +32,7 @@ namespace PrizePlanning
             deleteRecord += DeleteRecord;
             choose += ChooseRecord;
             users1.Load(addRecord,deleteRecord,this.inputRecord1,this.changeRecord1);
-            prizes1.Load(addRecord);
+            prizes1.Load(addRecord,choosePrize1);
             reminder1.Load(addRecord);
             inputRecord1.Load(addRecord);
             changeRecord1.Load(choose);

@@ -33,6 +33,7 @@
             // 
             // myFlowPanel1
             // 
+            this.myFlowPanel1.AutoScroll = true;
             this.myFlowPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.myFlowPanel1.Location = new System.Drawing.Point(0, 0);
             this.myFlowPanel1.Name = "myFlowPanel1";
