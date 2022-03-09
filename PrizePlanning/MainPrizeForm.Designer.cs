@@ -328,6 +328,7 @@ namespace PrizePlanning
             // 
             this.choosePrize1.BackColor = System.Drawing.Color.MediumPurple;
             this.choosePrize1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.choosePrize1.ForeColor = System.Drawing.Color.LightYellow;
             this.choosePrize1.Location = new System.Drawing.Point(0, 0);
             this.choosePrize1.Name = "choosePrize1";
             this.choosePrize1.Size = new System.Drawing.Size(1161, 748);
@@ -345,7 +346,7 @@ namespace PrizePlanning
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainPrizeForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PrizePlanning";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.MainPrizeForm_Load);
