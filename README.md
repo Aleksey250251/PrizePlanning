@@ -1,3 +1,3 @@
 # PrizePlanning
 Установить SQLite в Nuget.
-Добавить users.db в папку <Папка проекта>\bin\
+Переместить users.db в папку <Название проекта>\bin\
