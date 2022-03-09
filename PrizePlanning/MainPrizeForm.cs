@@ -22,7 +22,7 @@ namespace PrizePlanning
         DeleteRecord deleteRecord;
         ChooseRecordDelegate choose;
         public static int countRecords=0;
-        const int MaxRecords = 100;
+        //const int MaxRecords = 100;
         public static string strConnect { get; } = @"Data Source=..\users.db;Version=3;";
 
         public MainPrizeForm()
@@ -41,9 +41,10 @@ namespace PrizePlanning
         public void AddRecordBDMain(int ID, string fam, string name, string otch, string age,string gender)
         {
             users1.AddRecordOnFlowLayoutPanel(ID, fam, name, otch, age,gender);
-            prizes1.AddRecordOnFlowLayoutPanel(ID, fam, name, otch, age,gender);
+            string str1="", str2="";
+            prizes1.AddRecordOnFlowLayoutPanel(ID, fam, name, otch, age,gender,str1,str2);
             commandInsert = connection.CreateCommand();
-            commandInsert.CommandText = $"INSERT INTO Users (ID,FirstName,Name,LastName,Age,Gender) VALUES ({ID},'{fam}','{name}','{otch}','{age}','{gender}');";
+            commandInsert.CommandText = $"INSERT INTO Users (ID,FirstName,Name,LastName,Age,Gender,Date,Prize) VALUES ({ID},'{fam}','{name}','{otch}','{age}','{gender}','','');";
             commandInsert.ExecuteNonQuery();
             inputRecord1.SendToBack();
         }
@@ -80,16 +81,19 @@ namespace PrizePlanning
             commandGet = connection.CreateCommand();
             commandGet.CommandText = "SELECT * FROM Users;";
             dataReader = commandGet.ExecuteReader();
-            
-            foreach(DbDataRecord r in dataReader)
+
+            prizes1.LoadBD(connection);
+            reminder1.LoadBD(connection);
+
+            foreach (DbDataRecord r in dataReader)
             {
                 countRecords++;
                 users1.AddRecordOnFlowLayoutPanel(int.Parse(r["ID"].ToString()),r["FirstName"].ToString(),
                     r["Name"].ToString(), r["LastName"].ToString(), r["Age"].ToString(),r["Gender"].ToString());
                 prizes1.AddRecordOnFlowLayoutPanel(int.Parse(r["ID"].ToString()), r["FirstName"].ToString(),
-                    r["Name"].ToString(), r["LastName"].ToString(), r["Age"].ToString(), r["Gender"].ToString());
+                    r["Name"].ToString(), r["LastName"].ToString(), r["Age"].ToString(), r["Gender"].ToString(), r["Prize"].ToString(),
+                    r["Date"].ToString());
             }
-
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -116,6 +120,7 @@ namespace PrizePlanning
         }
         private void button4_Click(object sender, EventArgs e)
         {
+            reminder1.UpdateData();
             label1.Height = button4.Height;
             label1.Top = button4.Top;
             reminder1.BringToFront();

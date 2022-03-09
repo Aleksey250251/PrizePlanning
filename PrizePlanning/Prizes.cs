@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace PrizePlanning
 {
@@ -14,6 +15,7 @@ namespace PrizePlanning
     {
         AddRecord addRecord;
         ChoosePrize choosePrize;
+        SQLiteConnection connection;
         public Prizes()
         {
             InitializeComponent();
@@ -25,16 +27,22 @@ namespace PrizePlanning
             this.choosePrize = choosePrize;
         }
 
-        public void AddRecordOnFlowLayoutPanel(int ID, string fam, string name, string otch, string age, string gender)
+        public void LoadBD(SQLiteConnection connection)
+        {
+            this.connection = connection;
+        }
+
+        public void AddRecordOnFlowLayoutPanel(int ID, string fam, string name, string otch, string age, string gender,string Prize, string Date)
         {
             PrizeRecord prizeRecord = new PrizeRecord();
             prizeRecord.Id = ID;
             prizeRecord.Fam = fam;
             prizeRecord.Name = name;
             prizeRecord.Otch = otch;
-            prizeRecord.Date = "";
-            prizeRecord.Prize = "";
-            prizeRecord.Load(choosePrize);
+            prizeRecord.Date = Date;
+            prizeRecord.Prize = Prize;
+            prizeRecord.Gender = gender;
+            prizeRecord.Load(choosePrize,connection);
             myFlowPanel1.Controls.Add(prizeRecord);
             
         }
