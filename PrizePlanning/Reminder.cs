@@ -33,6 +33,22 @@ namespace PrizePlanning
         }
         public void UpdateData()
         {
+            this.label1.Text = "";
+            this.label2.Text = "";
+            this.label3.Text = "";
+            this.label4.Text = "";
+            this.label5.Text = "";
+            this.label6.Text = "";
+            this.label7.Text = "";
+            this.label8.Text = "";
+            this.label9.Text = "";
+            this.label10.Text ="";
+            this.label11.Text ="";
+            this.label12.Text ="";
+            this.label13.Text ="";
+            this.label14.Text ="";
+            this.label15.Text = "";
+
             List<Record> list = new List<Record>();
             command = connection.CreateCommand();
             command.CommandText = "SELECT * FROM Users";

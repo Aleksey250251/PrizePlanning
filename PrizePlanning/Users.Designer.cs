@@ -51,9 +51,10 @@ namespace PrizePlanning
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(976, 0);
+            this.panel1.Location = new System.Drawing.Point(732, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(185, 748);
+            this.panel1.Size = new System.Drawing.Size(139, 608);
             this.panel1.TabIndex = 0;
             // 
             // button3
@@ -61,11 +62,12 @@ namespace PrizePlanning
             this.button3.BackColor = System.Drawing.Color.SlateBlue;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Lucida Fax", 19F, System.Drawing.FontStyle.Bold);
+            this.button3.Font = new System.Drawing.Font("Lucida Fax", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(0, 194);
+            this.button3.Location = new System.Drawing.Point(6, 158);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 53);
+            this.button3.Size = new System.Drawing.Size(124, 43);
             this.button3.TabIndex = 2;
             this.button3.Text = "Удалить";
             this.button3.UseVisualStyleBackColor = false;
@@ -76,11 +78,12 @@ namespace PrizePlanning
             this.button2.BackColor = System.Drawing.Color.SlateBlue;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Lucida Fax", 19F, System.Drawing.FontStyle.Bold);
+            this.button2.Font = new System.Drawing.Font("Lucida Fax", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Gold;
-            this.button2.Location = new System.Drawing.Point(0, 121);
+            this.button2.Location = new System.Drawing.Point(6, 98);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 53);
+            this.button2.Size = new System.Drawing.Size(124, 43);
             this.button2.TabIndex = 1;
             this.button2.Text = "Изменить";
             this.button2.UseVisualStyleBackColor = false;
@@ -92,11 +95,12 @@ namespace PrizePlanning
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Lucida Fax", 19F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Lucida Fax", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(0, 45);
+            this.button1.Location = new System.Drawing.Point(6, 37);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 53);
+            this.button1.Size = new System.Drawing.Size(124, 43);
             this.button1.TabIndex = 0;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = false;
@@ -107,19 +111,21 @@ namespace PrizePlanning
             this.myFlowPanel1.AutoScroll = true;
             this.myFlowPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.myFlowPanel1.Location = new System.Drawing.Point(0, 0);
+            this.myFlowPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.myFlowPanel1.Name = "myFlowPanel1";
-            this.myFlowPanel1.Size = new System.Drawing.Size(979, 748);
+            this.myFlowPanel1.Size = new System.Drawing.Size(734, 608);
             this.myFlowPanel1.TabIndex = 1;
             // 
             // Users
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumPurple;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.myFlowPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Users";
-            this.Size = new System.Drawing.Size(1161, 748);
+            this.Size = new System.Drawing.Size(871, 608);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
