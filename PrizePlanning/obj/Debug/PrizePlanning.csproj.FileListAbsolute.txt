@@ -1,0 +1,49 @@
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe.config
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.AssemblyReference.cache
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Properties.Resources.resources
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.GenerateResource.cache
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.CoreCompileInputs.cache
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe.config
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.AssemblyReference.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Properties.Resources.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.GenerateResource.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.CoreCompileInputs.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.PrizePlanning.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.AddData.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe.config
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.AssemblyReference.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Properties.Resources.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.GenerateResource.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.CoreCompileInputs.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.exe
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.pdb
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.SuggestedBindingRedirects.cache
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\EntityFramework.dll
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\EntityFramework.SqlServer.dll
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\System.Data.SQLite.dll
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\System.Data.SQLite.EF6.dll
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\System.Data.SQLite.Linq.dll
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\EntityFramework.xml
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\EntityFramework.SqlServer.xml
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\bin\Debug\System.Data.SQLite.xml
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.csproj.CopyComplete
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Home.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.MainPrizeForm.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Prizes.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Reminder.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Users.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.Record.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.InputRecord.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.ChangeRecord.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.PrizeRecord.resources
+D:\2. Учёба\4 семестр\1. ООП\Практика\Практика 1\PrizePlanning\PrizePlanning\obj\Debug\PrizePlanning.ChoosePrize.resources
