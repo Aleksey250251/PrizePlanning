@@ -53,9 +53,9 @@ namespace PrizePlanning
             this.users1 = new PrizePlanning.Users();
             this.prizes1 = new PrizePlanning.Prizes();
             this.reminder1 = new PrizePlanning.Reminder();
+            this.choosePrize1 = new PrizePlanning.ChoosePrize();
             this.inputRecord1 = new PrizePlanning.InputRecord();
             this.changeRecord1 = new PrizePlanning.ChangeRecord();
-            this.choosePrize1 = new PrizePlanning.ChoosePrize();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -127,11 +127,10 @@ namespace PrizePlanning
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(213, 639);
+            this.panel1.Size = new System.Drawing.Size(214, 639);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -148,15 +147,15 @@ namespace PrizePlanning
             this.button4.BackColor = System.Drawing.Color.Indigo;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(9, 466);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(220, 90);
+            this.button4.Size = new System.Drawing.Size(198, 90);
             this.button4.TabIndex = 4;
             this.button4.Text = " Ближайшие\r\nпраздники";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -168,18 +167,18 @@ namespace PrizePlanning
             this.button3.BackColor = System.Drawing.Color.Indigo;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(9, 370);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.button3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button3.Size = new System.Drawing.Size(220, 90);
+            this.button3.Size = new System.Drawing.Size(198, 90);
             this.button3.TabIndex = 3;
-            this.button3.Text = "   Подарки";
+            this.button3.Text = "    Подарки";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -189,15 +188,15 @@ namespace PrizePlanning
             this.button2.BackColor = System.Drawing.Color.Indigo;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(9, 275);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(220, 90);
+            this.button2.Size = new System.Drawing.Size(198, 90);
             this.button2.TabIndex = 2;
             this.button2.Text = " Получатели";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -210,15 +209,15 @@ namespace PrizePlanning
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Lucida Fax", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(9, 180);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(220, 90);
+            this.button1.Size = new System.Drawing.Size(198, 90);
             this.button1.TabIndex = 1;
             this.button1.Text = "  Домашняя";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -232,7 +231,7 @@ namespace PrizePlanning
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(50, 10);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(116, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -245,10 +244,10 @@ namespace PrizePlanning
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(213, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(214, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(872, 32);
+            this.panel2.Size = new System.Drawing.Size(871, 32);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox2
@@ -256,8 +255,8 @@ namespace PrizePlanning
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(842, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(841, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(26, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -271,14 +270,14 @@ namespace PrizePlanning
             this.panel3.Controls.Add(this.users1);
             this.panel3.Controls.Add(this.prizes1);
             this.panel3.Controls.Add(this.reminder1);
+            this.panel3.Controls.Add(this.choosePrize1);
             this.panel3.Controls.Add(this.inputRecord1);
             this.panel3.Controls.Add(this.changeRecord1);
-            this.panel3.Controls.Add(this.choosePrize1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(213, 32);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(214, 32);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(872, 607);
+            this.panel3.Size = new System.Drawing.Size(871, 607);
             this.panel3.TabIndex = 2;
             // 
             // home1
@@ -286,20 +285,20 @@ namespace PrizePlanning
             this.home1.BackColor = System.Drawing.Color.DarkMagenta;
             this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.home1.Location = new System.Drawing.Point(0, 0);
-            this.home1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.home1.Margin = new System.Windows.Forms.Padding(2);
             this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(872, 607);
-            this.home1.TabIndex = 4;
+            this.home1.Size = new System.Drawing.Size(871, 607);
+            this.home1.TabIndex = 6;
             // 
             // users1
             // 
             this.users1.BackColor = System.Drawing.Color.MediumPurple;
             this.users1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.users1.Location = new System.Drawing.Point(0, 0);
-            this.users1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.users1.Margin = new System.Windows.Forms.Padding(2);
             this.users1.Name = "users1";
-            this.users1.Size = new System.Drawing.Size(872, 607);
-            this.users1.TabIndex = 3;
+            this.users1.Size = new System.Drawing.Size(871, 607);
+            this.users1.TabIndex = 5;
             // 
             // prizes1
             // 
@@ -308,39 +307,18 @@ namespace PrizePlanning
             this.prizes1.Location = new System.Drawing.Point(0, 0);
             this.prizes1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.prizes1.Name = "prizes1";
-            this.prizes1.Size = new System.Drawing.Size(872, 607);
-            this.prizes1.TabIndex = 2;
+            this.prizes1.Size = new System.Drawing.Size(871, 607);
+            this.prizes1.TabIndex = 4;
             // 
             // reminder1
             // 
             this.reminder1.BackColor = System.Drawing.Color.MediumPurple;
             this.reminder1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reminder1.Location = new System.Drawing.Point(0, 0);
-            this.reminder1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.reminder1.Margin = new System.Windows.Forms.Padding(2);
             this.reminder1.Name = "reminder1";
-            this.reminder1.Size = new System.Drawing.Size(872, 607);
-            this.reminder1.TabIndex = 1;
-            // 
-            // inputRecord1
-            // 
-            this.inputRecord1.BackColor = System.Drawing.Color.DarkMagenta;
-            this.inputRecord1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.inputRecord1.ForeColor = System.Drawing.Color.Khaki;
-            this.inputRecord1.Location = new System.Drawing.Point(0, 0);
-            this.inputRecord1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.inputRecord1.Name = "inputRecord1";
-            this.inputRecord1.Size = new System.Drawing.Size(872, 607);
-            this.inputRecord1.TabIndex = 0;
-            // 
-            // changeRecord1
-            // 
-            this.changeRecord1.BackColor = System.Drawing.Color.DarkMagenta;
-            this.changeRecord1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.changeRecord1.Location = new System.Drawing.Point(0, 0);
-            this.changeRecord1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.changeRecord1.Name = "changeRecord1";
-            this.changeRecord1.Size = new System.Drawing.Size(872, 607);
-            this.changeRecord1.TabIndex = 5;
+            this.reminder1.Size = new System.Drawing.Size(871, 607);
+            this.reminder1.TabIndex = 3;
             // 
             // choosePrize1
             // 
@@ -350,8 +328,29 @@ namespace PrizePlanning
             this.choosePrize1.Location = new System.Drawing.Point(0, 0);
             this.choosePrize1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.choosePrize1.Name = "choosePrize1";
-            this.choosePrize1.Size = new System.Drawing.Size(872, 607);
-            this.choosePrize1.TabIndex = 6;
+            this.choosePrize1.Size = new System.Drawing.Size(871, 607);
+            this.choosePrize1.TabIndex = 2;
+            // 
+            // inputRecord1
+            // 
+            this.inputRecord1.BackColor = System.Drawing.Color.DarkMagenta;
+            this.inputRecord1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.inputRecord1.ForeColor = System.Drawing.Color.Khaki;
+            this.inputRecord1.Location = new System.Drawing.Point(0, 0);
+            this.inputRecord1.Margin = new System.Windows.Forms.Padding(2);
+            this.inputRecord1.Name = "inputRecord1";
+            this.inputRecord1.Size = new System.Drawing.Size(871, 607);
+            this.inputRecord1.TabIndex = 1;
+            // 
+            // changeRecord1
+            // 
+            this.changeRecord1.BackColor = System.Drawing.Color.DarkMagenta;
+            this.changeRecord1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changeRecord1.Location = new System.Drawing.Point(0, 0);
+            this.changeRecord1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.changeRecord1.Name = "changeRecord1";
+            this.changeRecord1.Size = new System.Drawing.Size(871, 607);
+            this.changeRecord1.TabIndex = 0;
             // 
             // MainPrizeForm
             // 
@@ -364,7 +363,7 @@ namespace PrizePlanning
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainPrizeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PrizePlanning";
@@ -399,13 +398,13 @@ namespace PrizePlanning
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private Home home1;
         private Users users1;
         private Prizes prizes1;
         private Reminder reminder1;
+        private ChoosePrize choosePrize1;
         private InputRecord inputRecord1;
         private ChangeRecord changeRecord1;
-        private ChoosePrize choosePrize1;
+        private Home home1;
     }
 }
 

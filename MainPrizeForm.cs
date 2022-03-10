@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Data.SQLite;
 using System.Data.Common;
+using System.Runtime.InteropServices;
 
 namespace PrizePlanning
 {
@@ -15,6 +16,13 @@ namespace PrizePlanning
 
     public partial class MainPrizeForm : Form
     {
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HTCAPTION = 0x2;
+        [DllImport("User32.dll")]
+        public static extern bool ReleaseCapture();
+        [DllImport("User32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
         SQLiteConnection connection;
         SQLiteDataReader dataReader;
         SQLiteCommand commandInsert,commandGet;
@@ -28,6 +36,9 @@ namespace PrizePlanning
         public MainPrizeForm()
         {
             InitializeComponent();
+            panel1.MouseDown += MainPrizeForm_MouseDown;
+            panel2.MouseDown += MainPrizeForm_MouseDown;
+            panel3.MouseDown += MainPrizeForm_MouseDown;
             addRecord += AddRecordBDMain;
             deleteRecord += DeleteRecord;
             choose += ChooseRecord;
@@ -67,6 +78,7 @@ namespace PrizePlanning
 
         private void MainPrizeForm_Load(object sender, EventArgs e)
         {
+
             connection = new SQLiteConnection(strConnect);
             try
             {
@@ -118,6 +130,16 @@ namespace PrizePlanning
             label1.Top = button3.Top;
             prizes1.BringToFront();
         }
+
+        private void MainPrizeForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+            }
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             reminder1.UpdateData();

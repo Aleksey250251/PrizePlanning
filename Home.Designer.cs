@@ -39,12 +39,13 @@
             this.label1.BackColor = System.Drawing.Color.DarkMagenta;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.BurlyWood;
-            this.label1.Location = new System.Drawing.Point(30, 11);
+            this.label1.Location = new System.Drawing.Point(13, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(818, 58);
+            this.label1.Size = new System.Drawing.Size(841, 58);
             this.label1.TabIndex = 0;
             this.label1.Text = "Приложение для учёта подарков";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 

@@ -35,7 +35,7 @@ namespace PrizePlanning
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && numericUpDown1.Value != 0)
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && numericUpDown1.Value != 0 && (radioButton1.Checked || radioButton2.Checked))
             {
                 if (radioButton1.Checked)
                 {

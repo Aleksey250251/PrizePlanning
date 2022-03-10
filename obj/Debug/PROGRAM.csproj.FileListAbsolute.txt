@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\PROGRAM\PROGRAM\obj\Debug\PROGRAM.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\PROGRAM\PROGRAM\obj\Debug\PROGRAM.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\PROGRAM\PROGRAM\obj\Debug\PROGRAM.Properties.Resources.resources
+C:\Users\User\Desktop\PROGRAM\PROGRAM\obj\Debug\PROGRAM.csproj.GenerateResource.cache
+C:\Users\User\Desktop\PROGRAM\PROGRAM\obj\Debug\PROGRAM.csproj.CoreCompileInputs.cache
