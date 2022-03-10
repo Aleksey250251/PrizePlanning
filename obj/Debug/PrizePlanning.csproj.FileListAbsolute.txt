@@ -29,3 +29,5 @@ C:\Users\User\Desktop\prog\PrizePlanning\obj\Debug\PrizePlanning.exe
 C:\Users\User\Desktop\prog\PrizePlanning\obj\Debug\PrizePlanning.pdb
 C:\Users\User\Desktop\prog\PrizePlanning\bin\Debug\x86\sqlite3.dll
 C:\Users\User\Desktop\prog\PrizePlanning\bin\Debug\x64\sqlite3.dll
+C:\Users\User\Prize\Desktop\obj\Debug\PrizePlanning.exe
+C:\Users\User\Prize\Desktop\obj\Debug\PrizePlanning.pdb
